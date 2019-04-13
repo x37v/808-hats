@@ -1,5 +1,7 @@
 EESchema Schematic File Version 4
 LIBS:808-hats-cache
+LIBS:shift-triggers-cache
+LIBS:mod-dac-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1043,4 +1045,220 @@ Wire Wire Line
 	2000 1375 2000 1475
 Text Notes 2150 1425 0    50   ~ 0
 accent pullup
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5CB287CA
+P 975 6200
+F 0 "J5" H 1081 6478 50  0000 C CNN
+F 1 "trig/accent" H 1081 6387 50  0000 C CNN
+F 2 "" H 975 6200 50  0001 C CNN
+F 3 "~" H 975 6200 50  0001 C CNN
+	1    975  6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 6100 2    50   Output ~ 0
+ohtrig
+Text GLabel 1300 6200 2    50   Output ~ 0
+chtrig
+Text GLabel 1300 6300 2    50   Output ~ 0
+accent
+Wire Wire Line
+	1175 6100 1300 6100
+Wire Wire Line
+	1300 6200 1175 6200
+Wire Wire Line
+	1175 6300 1300 6300
+Wire Wire Line
+	3300 6525 3700 6525
+Wire Wire Line
+	3700 6525 3700 6600
+Wire Wire Line
+	3700 6625 3300 6625
+Wire Wire Line
+	3500 6725 3300 6725
+$Comp
+L power:+15V #PWR07
+U 1 1 5CB41248
+P 4325 6200
+F 0 "#PWR07" H 4325 6050 50  0001 C CNN
+F 1 "+15V" H 4340 6373 50  0000 C CNN
+F 2 "" H 4325 6200 50  0001 C CNN
+F 3 "" H 4325 6200 50  0001 C CNN
+	1    4325 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-15V #PWR06
+U 1 1 5CB4124E
+P 4000 7400
+F 0 "#PWR06" H 4000 7500 50  0001 C CNN
+F 1 "-15V" H 4015 7573 50  0000 C CNN
+F 2 "" H 4000 7400 50  0001 C CNN
+F 3 "" H 4000 7400 50  0001 C CNN
+	1    4000 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small L2
+U 1 1 5CB41254
+P 3825 6425
+F 0 "L2" V 3588 6425 50  0000 C CNN
+F 1 "BEAD" V 3679 6425 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3755 6425 50  0001 C CNN
+F 3 "~" H 3825 6425 50  0001 C CNN
+	1    3825 6425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small L1
+U 1 1 5CB4125B
+P 3600 7150
+F 0 "L1" V 3363 7150 50  0000 C CNN
+F 1 "BEAD" V 3454 7150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3530 7150 50  0001 C CNN
+F 3 "~" H 3600 7150 50  0001 C CNN
+	1    3600 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L mta-156:MTA-156-4 P1
+U 1 1 5CB41262
+P 3100 6575
+F 0 "P1" H 3019 6940 50  0000 C CNN
+F 1 "MTA-156-4" H 3019 6849 50  0000 C CNN
+F 2 "mta-156:MTA-156-4" H 3100 6575 50  0001 C CNN
+F 3 "" H 3100 6575 50  0000 C CNN
+	1    3100 6575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7150 4000 7150
+Wire Wire Line
+	4000 7150 4000 7400
+Connection ~ 4000 7150
+$Comp
+L power:GND #PWR05
+U 1 1 5CB4126C
+P 3800 6600
+F 0 "#PWR05" H 3800 6350 50  0001 C CNN
+F 1 "GND" H 3805 6427 50  0000 C CNN
+F 2 "" H 3800 6600 50  0001 C CNN
+F 3 "" H 3800 6600 50  0001 C CNN
+	1    3800 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6600 3700 6600
+Connection ~ 3700 6600
+Wire Wire Line
+	3700 6600 3700 6625
+$Comp
+L power:GND #PWR?
+U 1 1 5CB41275
+P 5075 6775
+AR Path="/5CB3E34A/5CB41275" Ref="#PWR?"  Part="1" 
+AR Path="/5CB41275" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 5075 6525 50  0001 C CNN
+F 1 "GND" H 5080 6602 50  0000 C CNN
+F 2 "" H 5075 6775 50  0001 C CNN
+F 3 "" H 5075 6775 50  0001 C CNN
+	1    5075 6775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 6725 3500 7150
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5CB4127C
+P 4725 7275
+F 0 "#FLG03" H 4725 7350 50  0001 C CNN
+F 1 "PWR_FLAG" H 4725 7449 50  0000 C CNN
+F 2 "" H 4725 7275 50  0001 C CNN
+F 3 "~" H 4725 7275 50  0001 C CNN
+	1    4725 7275
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5CB41282
+P 4700 6325
+F 0 "#FLG02" H 4700 6400 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 6499 50  0000 C CNN
+F 2 "" H 4700 6325 50  0001 C CNN
+F 3 "~" H 4700 6325 50  0001 C CNN
+	1    4700 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5CB41288
+P 3850 6525
+F 0 "#FLG01" H 3850 6600 50  0001 C CNN
+F 1 "PWR_FLAG" V 3850 6653 50  0000 L CNN
+F 2 "" H 3850 6525 50  0001 C CNN
+F 3 "~" H 3850 6525 50  0001 C CNN
+	1    3850 6525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 6525 3700 6525
+Connection ~ 3700 6525
+Wire Wire Line
+	4500 7100 4500 7150
+Wire Wire Line
+	4500 7150 4725 7150
+Connection ~ 4500 7150
+Wire Wire Line
+	4500 6750 4500 6775
+Connection ~ 4500 6775
+Wire Wire Line
+	4500 6775 4500 6800
+Wire Wire Line
+	4000 7150 4500 7150
+Wire Wire Line
+	3925 6425 4325 6425
+Wire Wire Line
+	4700 6325 4700 6425
+Wire Wire Line
+	4500 6450 4500 6425
+Connection ~ 4500 6425
+Wire Wire Line
+	4500 6425 4700 6425
+Wire Wire Line
+	4325 6425 4325 6200
+Connection ~ 4325 6425
+Wire Wire Line
+	4325 6425 4500 6425
+Wire Wire Line
+	4725 7275 4725 7150
+$Comp
+L Device:C C?
+U 1 1 5CB412A0
+P 4500 6600
+AR Path="/5CB3E34A/5CB412A0" Ref="C?"  Part="1" 
+AR Path="/5CB412A0" Ref="C37"  Part="1" 
+F 0 "C37" H 4615 6646 50  0000 L CNN
+F 1 "10u/25v" H 4615 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.33x1.40mm_HandSolder" H 4538 6450 50  0001 C CNN
+F 3 "~" H 4500 6600 50  0001 C CNN
+	1    4500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CB412A7
+P 4500 6950
+AR Path="/5CB3E34A/5CB412A7" Ref="C?"  Part="1" 
+AR Path="/5CB412A7" Ref="C38"  Part="1" 
+F 0 "C38" H 4615 6996 50  0000 L CNN
+F 1 "10u/25v" H 4615 6905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.33x1.40mm_HandSolder" H 4538 6800 50  0001 C CNN
+F 3 "~" H 4500 6950 50  0001 C CNN
+	1    4500 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6775 5075 6775
+Wire Wire Line
+	3300 6425 3725 6425
 $EndSCHEMATC

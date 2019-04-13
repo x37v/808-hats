@@ -1,5 +1,7 @@
 EESchema Schematic File Version 4
 LIBS:808-hats-cache
+LIBS:shift-triggers-cache
+LIBS:mod-dac-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
