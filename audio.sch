@@ -1,0 +1,1127 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5CC17795
+P 2325 2025
+AR Path="/5CC17795" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC17795" Ref="C18"  Part="1" 
+F 0 "C18" V 2073 2025 50  0000 C CNN
+F 1 "22n" V 2164 2025 50  0000 C CNN
+F 2 "" H 2363 1875 50  0001 C CNN
+F 3 "~" H 2325 2025 50  0001 C CNN
+	1    2325 2025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC1779C
+P 2625 1700
+AR Path="/5CC1779C" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC1779C" Ref="R42"  Part="1" 
+F 0 "R42" H 2695 1746 50  0000 L CNN
+F 1 "1M" H 2695 1655 50  0000 L CNN
+F 2 "" V 2555 1700 50  0001 C CNN
+F 3 "~" H 2625 1700 50  0001 C CNN
+	1    2625 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC177A3
+P 2625 1275
+AR Path="/5CC177A3" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177A3" Ref="R46"  Part="1" 
+F 0 "R46" H 2695 1321 50  0000 L CNN
+F 1 "1M" H 2695 1230 50  0000 L CNN
+F 2 "" V 2555 1275 50  0001 C CNN
+F 3 "~" H 2625 1275 50  0001 C CNN
+	1    2625 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 1850 2625 2025
+Wire Wire Line
+	2625 2025 2475 2025
+Wire Wire Line
+	2625 1550 2625 1425
+$Comp
+L power:+15V #PWR?
+U 1 1 5CC177AD
+P 2625 1050
+AR Path="/5CC177AD" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177AD" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 2625 900 50  0001 C CNN
+F 1 "+15V" H 2640 1223 50  0000 C CNN
+F 2 "" H 2625 1050 50  0001 C CNN
+F 3 "" H 2625 1050 50  0001 C CNN
+	1    2625 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 1050 2625 1125
+$Comp
+L Transistor_BJT:BC546 Q?
+U 1 1 5CC177B4
+P 2875 2025
+AR Path="/5CC177B4" Ref="Q?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177B4" Ref="Q11"  Part="1" 
+F 0 "Q11" H 3066 2071 50  0000 L CNN
+F 1 "BC546" H 3066 1980 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3075 1950 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2875 2025 50  0001 L CNN
+	1    2875 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 2025 2675 2025
+Connection ~ 2625 2025
+$Comp
+L Device:R R?
+U 1 1 5CC177BD
+P 2975 2525
+AR Path="/5CC177BD" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177BD" Ref="R52"  Part="1" 
+F 0 "R52" H 3045 2571 50  0000 L CNN
+F 1 "100R" H 3045 2480 50  0000 L CNN
+F 2 "" V 2905 2525 50  0001 C CNN
+F 3 "~" H 2975 2525 50  0001 C CNN
+	1    2975 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC177C4
+P 2975 2750
+AR Path="/5CC177C4" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177C4" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 2975 2500 50  0001 C CNN
+F 1 "GND" H 2980 2577 50  0000 C CNN
+F 2 "" H 2975 2750 50  0001 C CNN
+F 3 "" H 2975 2750 50  0001 C CNN
+	1    2975 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 2225 2975 2375
+Wire Wire Line
+	2975 2675 2975 2750
+Text GLabel 2050 2025 0    50   Input ~ 0
+noise
+Wire Wire Line
+	2050 2025 2175 2025
+$Comp
+L Device:C C?
+U 1 1 5CC177CE
+P 3475 2000
+AR Path="/5CC177CE" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177CE" Ref="C27"  Part="1" 
+F 0 "C27" H 3360 1954 50  0000 R CNN
+F 1 "1n5" H 3360 2045 50  0000 R CNN
+F 2 "" H 3513 1850 50  0001 C CNN
+F 3 "~" H 3475 2000 50  0001 C CNN
+	1    3475 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC177D5
+P 3925 2000
+AR Path="/5CC177D5" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177D5" Ref="C28"  Part="1" 
+F 0 "C28" H 3810 1954 50  0000 R CNN
+F 1 "1n5" H 3810 2045 50  0000 R CNN
+F 2 "" H 3963 1850 50  0001 C CNN
+F 3 "~" H 3925 2000 50  0001 C CNN
+	1    3925 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC177DC
+P 3475 2275
+AR Path="/5CC177DC" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177DC" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 3475 2025 50  0001 C CNN
+F 1 "GND" H 3480 2102 50  0000 C CNN
+F 2 "" H 3475 2275 50  0001 C CNN
+F 3 "" H 3475 2275 50  0001 C CNN
+	1    3475 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC177E2
+P 3925 2300
+AR Path="/5CC177E2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177E2" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 3925 2050 50  0001 C CNN
+F 1 "GND" H 3930 2127 50  0000 C CNN
+F 2 "" H 3925 2300 50  0001 C CNN
+F 3 "" H 3925 2300 50  0001 C CNN
+	1    3925 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 2150 3925 2300
+Wire Wire Line
+	3475 2150 3475 2275
+$Comp
+L Diode:1N914 D?
+U 1 1 5CC177EA
+P 3725 1675
+AR Path="/5CC177EA" Ref="D?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177EA" Ref="D1"  Part="1" 
+F 0 "D1" H 3725 1891 50  0000 C CNN
+F 1 "1N914" H 3725 1800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3725 1500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3725 1675 50  0001 C CNN
+	1    3725 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 1825 2975 1675
+Wire Wire Line
+	2975 1675 3475 1675
+Wire Wire Line
+	3475 1850 3475 1675
+Connection ~ 3475 1675
+Wire Wire Line
+	3475 1675 3575 1675
+Wire Wire Line
+	3875 1675 3925 1675
+Wire Wire Line
+	3925 1675 3925 1850
+$Comp
+L Device:C C?
+U 1 1 5CC177F8
+P 4550 1675
+AR Path="/5CC177F8" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177F8" Ref="C30"  Part="1" 
+F 0 "C30" V 4802 1675 50  0000 C CNN
+F 1 "1n5" V 4711 1675 50  0000 C CNN
+F 2 "" H 4588 1525 50  0001 C CNN
+F 3 "~" H 4550 1675 50  0001 C CNN
+	1    4550 1675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC177FF
+P 4325 2000
+AR Path="/5CC177FF" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC177FF" Ref="R53"  Part="1" 
+F 0 "R53" H 4395 2046 50  0000 L CNN
+F 1 "2k7" H 4395 1955 50  0000 L CNN
+F 2 "" V 4255 2000 50  0001 C CNN
+F 3 "~" H 4325 2000 50  0001 C CNN
+	1    4325 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 1675 4325 1850
+Connection ~ 3925 1675
+Wire Wire Line
+	4400 1675 4325 1675
+$Comp
+L Device:R R?
+U 1 1 5CC1780B
+P 4825 2000
+AR Path="/5CC1780B" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC1780B" Ref="R50"  Part="1" 
+F 0 "R50" H 4895 2046 50  0000 L CNN
+F 1 "68k" H 4895 1955 50  0000 L CNN
+F 2 "" V 4755 2000 50  0001 C CNN
+F 3 "~" H 4825 2000 50  0001 C CNN
+	1    4825 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1675 4825 1675
+Wire Wire Line
+	4825 1675 4825 1850
+$Comp
+L Transistor_BJT:BC546 Q?
+U 1 1 5CC17814
+P 5150 1675
+AR Path="/5CC17814" Ref="Q?"  Part="1" 
+AR Path="/5CC0DBBF/5CC17814" Ref="Q12"  Part="1" 
+F 0 "Q12" H 5341 1721 50  0000 L CNN
+F 1 "BC546" H 5341 1630 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 1600 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5150 1675 50  0001 L CNN
+	1    5150 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1675 4825 1675
+Connection ~ 4825 1675
+$Comp
+L power:GND #PWR?
+U 1 1 5CC1781D
+P 4825 2300
+AR Path="/5CC1781D" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC1781D" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4825 2050 50  0001 C CNN
+F 1 "GND" H 4830 2127 50  0000 C CNN
+F 2 "" H 4825 2300 50  0001 C CNN
+F 3 "" H 4825 2300 50  0001 C CNN
+	1    4825 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 2150 4825 2300
+$Comp
+L Device:R R?
+U 1 1 5CC17824
+P 5250 2525
+AR Path="/5CC17824" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC17824" Ref="R43"  Part="1" 
+F 0 "R43" H 5320 2571 50  0000 L CNN
+F 1 "22k" H 5320 2480 50  0000 L CNN
+F 2 "" V 5180 2525 50  0001 C CNN
+F 3 "~" H 5250 2525 50  0001 C CNN
+	1    5250 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1875 5250 2225
+Wire Wire Line
+	4325 2225 5250 2225
+Connection ~ 5250 2225
+Wire Wire Line
+	5250 2225 5250 2375
+$Comp
+L power:+15V #PWR?
+U 1 1 5CC17830
+P 5250 1350
+AR Path="/5CC17830" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC17830" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 5250 1200 50  0001 C CNN
+F 1 "+15V" H 5265 1523 50  0000 C CNN
+F 2 "" H 5250 1350 50  0001 C CNN
+F 3 "" H 5250 1350 50  0001 C CNN
+	1    5250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1350 5250 1475
+$Comp
+L power:-15V #PWR?
+U 1 1 5CC17837
+P 5250 2800
+AR Path="/5CC17837" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC17837" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 5250 2900 50  0001 C CNN
+F 1 "-15V" H 5265 2973 50  0000 C CNN
+F 2 "" H 5250 2800 50  0001 C CNN
+F 3 "" H 5250 2800 50  0001 C CNN
+	1    5250 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2675 5250 2800
+Text GLabel 3925 1275 1    50   Input ~ 0
+ohcnt
+Wire Wire Line
+	3925 1275 3925 1675
+$Comp
+L Device:C C?
+U 1 1 5CC289FE
+P 5700 2225
+AR Path="/5CC289FE" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC289FE" Ref="C23"  Part="1" 
+F 0 "C23" V 5952 2225 50  0000 C CNN
+F 1 "470p" V 5861 2225 50  0000 C CNN
+F 2 "" H 5738 2075 50  0001 C CNN
+F 3 "~" H 5700 2225 50  0001 C CNN
+	1    5700 2225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2225 5250 2225
+Wire Wire Line
+	4325 2150 4325 2225
+$Comp
+L Device:R R?
+U 1 1 5CC2927E
+P 6150 2225
+AR Path="/5CC2927E" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC2927E" Ref="R54"  Part="1" 
+F 0 "R54" V 5943 2225 50  0000 C CNN
+F 1 "39k" V 6034 2225 50  0000 C CNN
+F 2 "" V 6080 2225 50  0001 C CNN
+F 3 "~" H 6150 2225 50  0001 C CNN
+	1    6150 2225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 2225 5850 2225
+$Comp
+L Amplifier_Operational:TL072 U4
+U 1 1 5CC29756
+P 6925 2325
+F 0 "U4" H 6925 1958 50  0000 C CNN
+F 1 "TL072" H 6925 2049 50  0000 C CNN
+F 2 "" H 6925 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6925 2325 50  0001 C CNN
+	1    6925 2325
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6300 2225 6550 2225
+$Comp
+L Device:R R?
+U 1 1 5CC2A211
+P 6400 2600
+AR Path="/5CC2A211" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC2A211" Ref="R47"  Part="1" 
+F 0 "R47" H 6330 2554 50  0000 R CNN
+F 1 "47k" H 6330 2645 50  0000 R CNN
+F 2 "" V 6330 2600 50  0001 C CNN
+F 3 "~" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6625 2425 6400 2425
+Wire Wire Line
+	6400 2425 6400 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5CC2A67C
+P 6400 2825
+AR Path="/5CC2A67C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC2A67C" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 6400 2575 50  0001 C CNN
+F 1 "GND" H 6405 2652 50  0000 C CNN
+F 2 "" H 6400 2825 50  0001 C CNN
+F 3 "" H 6400 2825 50  0001 C CNN
+	1    6400 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2750 6400 2825
+$Comp
+L Device:R R?
+U 1 1 5CC2AB1E
+P 6925 1800
+AR Path="/5CC2AB1E" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC2AB1E" Ref="R55"  Part="1" 
+F 0 "R55" V 6718 1800 50  0000 C CNN
+F 1 "470k" V 6809 1800 50  0000 C CNN
+F 2 "" V 6855 1800 50  0001 C CNN
+F 3 "~" H 6925 1800 50  0001 C CNN
+	1    6925 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 1800 6550 1800
+Wire Wire Line
+	6550 1800 6550 2225
+Connection ~ 6550 2225
+Wire Wire Line
+	6550 2225 6625 2225
+Wire Wire Line
+	7075 1800 7250 1800
+Wire Wire Line
+	7250 1800 7250 2325
+Wire Wire Line
+	7250 2325 7225 2325
+$Comp
+L Device:C C?
+U 1 1 5CC2B9E5
+P 6925 1425
+AR Path="/5CC2B9E5" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC2B9E5" Ref="C24"  Part="1" 
+F 0 "C24" V 6673 1425 50  0000 C CNN
+F 1 "220p" V 6764 1425 50  0000 C CNN
+F 2 "" H 6963 1275 50  0001 C CNN
+F 3 "~" H 6925 1425 50  0001 C CNN
+	1    6925 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 1425 6550 1425
+Wire Wire Line
+	6550 1425 6550 1800
+Connection ~ 6550 1800
+Wire Wire Line
+	7075 1425 7250 1425
+Wire Wire Line
+	7250 1425 7250 1800
+Connection ~ 7250 1800
+$Comp
+L Device:CP C21
+U 1 1 5CC2CD8C
+P 6775 975
+F 0 "C21" V 6520 975 50  0000 C CNN
+F 1 "33u/6.3v" V 6611 975 50  0000 C CNN
+F 2 "" H 6813 825 50  0001 C CNN
+F 3 "~" H 6775 975 50  0001 C CNN
+	1    6775 975 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 975  6550 975 
+Wire Wire Line
+	6550 975  6550 1425
+Connection ~ 6550 1425
+$Comp
+L Connector:Conn_01x02_Male Johlev1
+U 1 1 5CC2D718
+P 7100 775
+F 0 "Johlev1" V 7160 587 50  0000 R CNN
+F 1 "100kA" V 7251 587 50  0000 R CNN
+F 2 "" H 7100 775 50  0001 C CNN
+F 3 "~" H 7100 775 50  0001 C CNN
+	1    7100 775 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7100 975  6925 975 
+Wire Wire Line
+	7200 975  7250 975 
+Wire Wire Line
+	7250 975  7250 1425
+Connection ~ 7250 1425
+$Comp
+L Device:R R?
+U 1 1 5CC30647
+P 7600 2325
+AR Path="/5CC30647" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC30647" Ref="R60"  Part="1" 
+F 0 "R60" V 7393 2325 50  0000 C CNN
+F 1 "1k" V 7484 2325 50  0000 C CNN
+F 2 "" V 7530 2325 50  0001 C CNN
+F 3 "~" H 7600 2325 50  0001 C CNN
+	1    7600 2325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 2325 7250 2325
+Connection ~ 7250 2325
+Text GLabel 7850 2325 2    50   Output ~ 0
+ohout
+Wire Wire Line
+	7750 2325 7850 2325
+$Comp
+L Device:C C?
+U 1 1 5CC33DAD
+P 4125 1675
+AR Path="/5CC33DAD" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC33DAD" Ref="C29"  Part="1" 
+F 0 "C29" V 4377 1675 50  0000 C CNN
+F 1 "1n5" V 4286 1675 50  0000 C CNN
+F 2 "" H 4163 1525 50  0001 C CNN
+F 3 "~" H 4125 1675 50  0001 C CNN
+	1    4125 1675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3975 1675 3925 1675
+Wire Wire Line
+	4275 1675 4325 1675
+Connection ~ 4325 1675
+$Comp
+L Device:C C?
+U 1 1 5CC39368
+P 2325 5025
+AR Path="/5CC39368" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39368" Ref="C20"  Part="1" 
+F 0 "C20" V 2073 5025 50  0000 C CNN
+F 1 "22n" V 2164 5025 50  0000 C CNN
+F 2 "" H 2363 4875 50  0001 C CNN
+F 3 "~" H 2325 5025 50  0001 C CNN
+	1    2325 5025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC3936E
+P 2625 4700
+AR Path="/5CC3936E" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC3936E" Ref="R45"  Part="1" 
+F 0 "R45" H 2695 4746 50  0000 L CNN
+F 1 "1M" H 2695 4655 50  0000 L CNN
+F 2 "" V 2555 4700 50  0001 C CNN
+F 3 "~" H 2625 4700 50  0001 C CNN
+	1    2625 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC39374
+P 2625 4275
+AR Path="/5CC39374" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39374" Ref="R49"  Part="1" 
+F 0 "R49" H 2695 4321 50  0000 L CNN
+F 1 "1M" H 2695 4230 50  0000 L CNN
+F 2 "" V 2555 4275 50  0001 C CNN
+F 3 "~" H 2625 4275 50  0001 C CNN
+	1    2625 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 4850 2625 5025
+Wire Wire Line
+	2625 5025 2475 5025
+Wire Wire Line
+	2625 4550 2625 4425
+$Comp
+L power:+15V #PWR?
+U 1 1 5CC3937D
+P 2625 4050
+AR Path="/5CC3937D" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC3937D" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 2625 3900 50  0001 C CNN
+F 1 "+15V" H 2640 4223 50  0000 C CNN
+F 2 "" H 2625 4050 50  0001 C CNN
+F 3 "" H 2625 4050 50  0001 C CNN
+	1    2625 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 4050 2625 4125
+$Comp
+L Transistor_BJT:BC546 Q?
+U 1 1 5CC39384
+P 2875 5025
+AR Path="/5CC39384" Ref="Q?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39384" Ref="Q14"  Part="1" 
+F 0 "Q14" H 3066 5071 50  0000 L CNN
+F 1 "BC546" H 3066 4980 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3075 4950 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2875 5025 50  0001 L CNN
+	1    2875 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 5025 2675 5025
+Connection ~ 2625 5025
+$Comp
+L Device:R R?
+U 1 1 5CC3938C
+P 2975 5525
+AR Path="/5CC3938C" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC3938C" Ref="R59"  Part="1" 
+F 0 "R59" H 3045 5571 50  0000 L CNN
+F 1 "100R" H 3045 5480 50  0000 L CNN
+F 2 "" V 2905 5525 50  0001 C CNN
+F 3 "~" H 2975 5525 50  0001 C CNN
+	1    2975 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC39392
+P 2975 5750
+AR Path="/5CC39392" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39392" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 2975 5500 50  0001 C CNN
+F 1 "GND" H 2980 5577 50  0000 C CNN
+F 2 "" H 2975 5750 50  0001 C CNN
+F 3 "" H 2975 5750 50  0001 C CNN
+	1    2975 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 5225 2975 5375
+Wire Wire Line
+	2975 5675 2975 5750
+Text GLabel 2050 5025 0    50   Input ~ 0
+noise
+Wire Wire Line
+	2050 5025 2175 5025
+$Comp
+L Device:C C?
+U 1 1 5CC3939C
+P 3475 5000
+AR Path="/5CC3939C" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC3939C" Ref="C34"  Part="1" 
+F 0 "C34" H 3360 4954 50  0000 R CNN
+F 1 "1n5" H 3360 5045 50  0000 R CNN
+F 2 "" H 3513 4850 50  0001 C CNN
+F 3 "~" H 3475 5000 50  0001 C CNN
+	1    3475 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC393A2
+P 3925 5000
+AR Path="/5CC393A2" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393A2" Ref="C33"  Part="1" 
+F 0 "C33" H 3810 4954 50  0000 R CNN
+F 1 "1n5" H 3810 5045 50  0000 R CNN
+F 2 "" H 3963 4850 50  0001 C CNN
+F 3 "~" H 3925 5000 50  0001 C CNN
+	1    3925 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC393A8
+P 3475 5275
+AR Path="/5CC393A8" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393A8" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 3475 5025 50  0001 C CNN
+F 1 "GND" H 3480 5102 50  0000 C CNN
+F 2 "" H 3475 5275 50  0001 C CNN
+F 3 "" H 3475 5275 50  0001 C CNN
+	1    3475 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CC393AE
+P 3925 5300
+AR Path="/5CC393AE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393AE" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 3925 5050 50  0001 C CNN
+F 1 "GND" H 3930 5127 50  0000 C CNN
+F 2 "" H 3925 5300 50  0001 C CNN
+F 3 "" H 3925 5300 50  0001 C CNN
+	1    3925 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 5150 3925 5300
+Wire Wire Line
+	3475 5150 3475 5275
+$Comp
+L Diode:1N914 D?
+U 1 1 5CC393B6
+P 3725 4675
+AR Path="/5CC393B6" Ref="D?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393B6" Ref="D2"  Part="1" 
+F 0 "D2" H 3725 4891 50  0000 C CNN
+F 1 "1N914" H 3725 4800 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3725 4500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3725 4675 50  0001 C CNN
+	1    3725 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 4825 2975 4675
+Wire Wire Line
+	2975 4675 3475 4675
+Wire Wire Line
+	3475 4850 3475 4675
+Connection ~ 3475 4675
+Wire Wire Line
+	3475 4675 3575 4675
+Wire Wire Line
+	3875 4675 3925 4675
+Wire Wire Line
+	3925 4675 3925 4850
+$Comp
+L Device:C C?
+U 1 1 5CC393C3
+P 4550 4675
+AR Path="/5CC393C3" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393C3" Ref="C31"  Part="1" 
+F 0 "C31" V 4802 4675 50  0000 C CNN
+F 1 "1n" V 4711 4675 50  0000 C CNN
+F 2 "" H 4588 4525 50  0001 C CNN
+F 3 "~" H 4550 4675 50  0001 C CNN
+	1    4550 4675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CC393C9
+P 4325 5000
+AR Path="/5CC393C9" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393C9" Ref="R58"  Part="1" 
+F 0 "R58" H 4395 5046 50  0000 L CNN
+F 1 "2k7" H 4395 4955 50  0000 L CNN
+F 2 "" V 4255 5000 50  0001 C CNN
+F 3 "~" H 4325 5000 50  0001 C CNN
+	1    4325 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 4675 4325 4850
+Connection ~ 3925 4675
+Wire Wire Line
+	4400 4675 4325 4675
+$Comp
+L Device:R R?
+U 1 1 5CC393D2
+P 4825 5000
+AR Path="/5CC393D2" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393D2" Ref="R51"  Part="1" 
+F 0 "R51" H 4895 5046 50  0000 L CNN
+F 1 "68k" H 4895 4955 50  0000 L CNN
+F 2 "" V 4755 5000 50  0001 C CNN
+F 3 "~" H 4825 5000 50  0001 C CNN
+	1    4825 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4675 4825 4675
+Wire Wire Line
+	4825 4675 4825 4850
+$Comp
+L Transistor_BJT:BC546 Q?
+U 1 1 5CC393DA
+P 5150 4675
+AR Path="/5CC393DA" Ref="Q?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393DA" Ref="Q13"  Part="1" 
+F 0 "Q13" H 5341 4721 50  0000 L CNN
+F 1 "BC546" H 5341 4630 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 4600 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5150 4675 50  0001 L CNN
+	1    5150 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4675 4825 4675
+Connection ~ 4825 4675
+$Comp
+L power:GND #PWR?
+U 1 1 5CC393E2
+P 4825 5300
+AR Path="/5CC393E2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393E2" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 4825 5050 50  0001 C CNN
+F 1 "GND" H 4830 5127 50  0000 C CNN
+F 2 "" H 4825 5300 50  0001 C CNN
+F 3 "" H 4825 5300 50  0001 C CNN
+	1    4825 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5150 4825 5300
+$Comp
+L Device:R R?
+U 1 1 5CC393E9
+P 5250 5525
+AR Path="/5CC393E9" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393E9" Ref="R44"  Part="1" 
+F 0 "R44" H 5320 5571 50  0000 L CNN
+F 1 "22k" H 5320 5480 50  0000 L CNN
+F 2 "" V 5180 5525 50  0001 C CNN
+F 3 "~" H 5250 5525 50  0001 C CNN
+	1    5250 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4875 5250 5225
+Wire Wire Line
+	4325 5225 5250 5225
+Connection ~ 5250 5225
+Wire Wire Line
+	5250 5225 5250 5375
+$Comp
+L power:+15V #PWR?
+U 1 1 5CC393F3
+P 5250 4350
+AR Path="/5CC393F3" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393F3" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 5250 4200 50  0001 C CNN
+F 1 "+15V" H 5265 4523 50  0000 C CNN
+F 2 "" H 5250 4350 50  0001 C CNN
+F 3 "" H 5250 4350 50  0001 C CNN
+	1    5250 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4350 5250 4475
+$Comp
+L power:-15V #PWR?
+U 1 1 5CC393FA
+P 5250 5800
+AR Path="/5CC393FA" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC393FA" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 5250 5900 50  0001 C CNN
+F 1 "-15V" H 5265 5973 50  0000 C CNN
+F 2 "" H 5250 5800 50  0001 C CNN
+F 3 "" H 5250 5800 50  0001 C CNN
+	1    5250 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 5675 5250 5800
+Text GLabel 3925 4275 1    50   Input ~ 0
+chcnt
+Wire Wire Line
+	3925 4275 3925 4675
+$Comp
+L Device:C C?
+U 1 1 5CC39403
+P 5700 5225
+AR Path="/5CC39403" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39403" Ref="C26"  Part="1" 
+F 0 "C26" V 5952 5225 50  0000 C CNN
+F 1 "470p" V 5861 5225 50  0000 C CNN
+F 2 "" H 5738 5075 50  0001 C CNN
+F 3 "~" H 5700 5225 50  0001 C CNN
+	1    5700 5225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 5225 5250 5225
+Wire Wire Line
+	4325 5150 4325 5225
+$Comp
+L Device:R R?
+U 1 1 5CC3940B
+P 6150 5225
+AR Path="/5CC3940B" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC3940B" Ref="R57"  Part="1" 
+F 0 "R57" V 5943 5225 50  0000 C CNN
+F 1 "33k" V 6034 5225 50  0000 C CNN
+F 2 "" V 6080 5225 50  0001 C CNN
+F 3 "~" H 6150 5225 50  0001 C CNN
+	1    6150 5225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 5225 5850 5225
+$Comp
+L Amplifier_Operational:TL072 U4
+U 2 1 5CC39412
+P 6925 5325
+F 0 "U4" H 6925 4958 50  0000 C CNN
+F 1 "TL072" H 6925 5049 50  0000 C CNN
+F 2 "" H 6925 5325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6925 5325 50  0001 C CNN
+	2    6925 5325
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6300 5225 6550 5225
+$Comp
+L Device:R R?
+U 1 1 5CC39419
+P 6400 5600
+AR Path="/5CC39419" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39419" Ref="R48"  Part="1" 
+F 0 "R48" H 6330 5554 50  0000 R CNN
+F 1 "47k" H 6330 5645 50  0000 R CNN
+F 2 "" V 6330 5600 50  0001 C CNN
+F 3 "~" H 6400 5600 50  0001 C CNN
+	1    6400 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6625 5425 6400 5425
+Wire Wire Line
+	6400 5425 6400 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5CC39421
+P 6400 5825
+AR Path="/5CC39421" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39421" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 6400 5575 50  0001 C CNN
+F 1 "GND" H 6405 5652 50  0000 C CNN
+F 2 "" H 6400 5825 50  0001 C CNN
+F 3 "" H 6400 5825 50  0001 C CNN
+	1    6400 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5750 6400 5825
+$Comp
+L Device:R R?
+U 1 1 5CC39428
+P 6925 4800
+AR Path="/5CC39428" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39428" Ref="R56"  Part="1" 
+F 0 "R56" V 6718 4800 50  0000 C CNN
+F 1 "470k" V 6809 4800 50  0000 C CNN
+F 2 "" V 6855 4800 50  0001 C CNN
+F 3 "~" H 6925 4800 50  0001 C CNN
+	1    6925 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 4800 6550 4800
+Wire Wire Line
+	6550 4800 6550 5225
+Connection ~ 6550 5225
+Wire Wire Line
+	6550 5225 6625 5225
+Wire Wire Line
+	7075 4800 7250 4800
+Wire Wire Line
+	7250 4800 7250 5325
+Wire Wire Line
+	7250 5325 7225 5325
+$Comp
+L Device:C C?
+U 1 1 5CC39435
+P 6925 4425
+AR Path="/5CC39435" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39435" Ref="C25"  Part="1" 
+F 0 "C25" V 6673 4425 50  0000 C CNN
+F 1 "220p" V 6764 4425 50  0000 C CNN
+F 2 "" H 6963 4275 50  0001 C CNN
+F 3 "~" H 6925 4425 50  0001 C CNN
+	1    6925 4425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 4425 6550 4425
+Wire Wire Line
+	6550 4425 6550 4800
+Connection ~ 6550 4800
+Wire Wire Line
+	7075 4425 7250 4425
+Wire Wire Line
+	7250 4425 7250 4800
+Connection ~ 7250 4800
+$Comp
+L Device:CP C17
+U 1 1 5CC39441
+P 6775 3975
+F 0 "C17" V 6520 3975 50  0000 C CNN
+F 1 "33u/6.3v" V 6611 3975 50  0000 C CNN
+F 2 "" H 6813 3825 50  0001 C CNN
+F 3 "~" H 6775 3975 50  0001 C CNN
+	1    6775 3975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 3975 6550 3975
+Wire Wire Line
+	6550 3975 6550 4425
+Connection ~ 6550 4425
+$Comp
+L Connector:Conn_01x02_Male Jchlev1
+U 1 1 5CC3944A
+P 7100 3775
+F 0 "Jchlev1" V 7160 3587 50  0000 R CNN
+F 1 "100kA" V 7251 3587 50  0000 R CNN
+F 2 "" H 7100 3775 50  0001 C CNN
+F 3 "~" H 7100 3775 50  0001 C CNN
+	1    7100 3775
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7100 3975 6925 3975
+Wire Wire Line
+	7200 3975 7250 3975
+Wire Wire Line
+	7250 3975 7250 4425
+Connection ~ 7250 4425
+$Comp
+L Device:R R?
+U 1 1 5CC39454
+P 7600 5325
+AR Path="/5CC39454" Ref="R?"  Part="1" 
+AR Path="/5CC0DBBF/5CC39454" Ref="R61"  Part="1" 
+F 0 "R61" V 7393 5325 50  0000 C CNN
+F 1 "1k" V 7484 5325 50  0000 C CNN
+F 2 "" V 7530 5325 50  0001 C CNN
+F 3 "~" H 7600 5325 50  0001 C CNN
+	1    7600 5325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 5325 7250 5325
+Connection ~ 7250 5325
+Text GLabel 7850 5325 2    50   Output ~ 0
+chout
+Wire Wire Line
+	7750 5325 7850 5325
+$Comp
+L Device:C C?
+U 1 1 5CC3945E
+P 4125 4675
+AR Path="/5CC3945E" Ref="C?"  Part="1" 
+AR Path="/5CC0DBBF/5CC3945E" Ref="C32"  Part="1" 
+F 0 "C32" V 4377 4675 50  0000 C CNN
+F 1 "1n" V 4286 4675 50  0000 C CNN
+F 2 "" H 4163 4525 50  0001 C CNN
+F 3 "~" H 4125 4675 50  0001 C CNN
+	1    4125 4675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3975 4675 3925 4675
+Wire Wire Line
+	4275 4675 4325 4675
+Connection ~ 4325 4675
+Text Notes 8250 3150 0    50   ~ 0
+add mixer?
+$Comp
+L Amplifier_Operational:TL072 U4
+U 3 1 5CCBF985
+P 8750 1450
+F 0 "U4" H 8562 1496 50  0000 R CNN
+F 1 "TL072" H 8562 1405 50  0000 R CNN
+F 2 "" H 8750 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8750 1450 50  0001 C CNN
+	3    8750 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5CCCAAC4
+P 9500 1300
+F 0 "C22" H 9615 1346 50  0000 L CNN
+F 1 "0.1u" H 9615 1255 50  0000 L CNN
+F 2 "" H 9538 1150 50  0001 C CNN
+F 3 "~" H 9500 1300 50  0001 C CNN
+	1    9500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5CCCAC7D
+P 9500 1650
+F 0 "C19" H 9615 1696 50  0000 L CNN
+F 1 "0.1u" H 9615 1605 50  0000 L CNN
+F 2 "" H 9538 1500 50  0001 C CNN
+F 3 "~" H 9500 1650 50  0001 C CNN
+	1    9500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CCCADEC
+P 9800 1475
+F 0 "#PWR?" H 9800 1225 50  0001 C CNN
+F 1 "GND" V 9805 1347 50  0000 R CNN
+F 2 "" H 9800 1475 50  0001 C CNN
+F 3 "" H 9800 1475 50  0001 C CNN
+	1    9800 1475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 1450 9500 1475
+Wire Wire Line
+	9800 1475 9500 1475
+Connection ~ 9500 1475
+Wire Wire Line
+	9500 1475 9500 1500
+Wire Wire Line
+	9500 1800 8850 1800
+Wire Wire Line
+	8850 1800 8850 1750
+Wire Wire Line
+	8850 1150 8850 1100
+Wire Wire Line
+	8850 1100 9500 1100
+Wire Wire Line
+	9500 1100 9500 1150
+Text Notes 9025 1000 0    50   ~ 0
+decouple
+$EndSCHEMATC
