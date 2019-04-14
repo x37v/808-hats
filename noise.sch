@@ -642,8 +642,6 @@ Connection ~ 4500 2250
 Connection ~ 4500 3300
 Wire Wire Line
 	4500 3300 4400 3300
-Wire Wire Line
-	5325 2250 5325 2700
 Connection ~ 5325 2250
 Wire Wire Line
 	5325 3400 5150 3400
@@ -754,22 +752,22 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U2
 U 2 1 5CC85CA2
-P 6625 2600
-F 0 "U2" H 6625 2233 50  0000 C CNN
-F 1 "TL072" H 6625 2324 50  0000 C CNN
-F 2 "" H 6625 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6625 2600 50  0001 C CNN
-	2    6625 2600
+P 5900 1150
+F 0 "U2" H 5900 783 50  0000 C CNN
+F 1 "TL072" H 5900 874 50  0000 C CNN
+F 2 "" H 5900 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5900 1150 50  0001 C CNN
+	2    5900 1150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6325 2500 6150 2500
+	5600 1050 5425 1050
 Wire Wire Line
-	6150 2050 7025 2050
+	5425 600  6300 600 
 Wire Wire Line
-	7025 2050 7025 2600
+	6300 600  6300 1150
 Wire Wire Line
-	7025 2600 6925 2600
+	6300 1150 6200 1150
 $Comp
 L Amplifier_Operational:TL072 U2
 U 3 1 5CC8B124
@@ -909,7 +907,7 @@ $EndComp
 Wire Wire Line
 	1725 1350 1725 1400
 Wire Wire Line
-	2950 1200 2950 2350
+	2950 1200 2950 1425
 $Comp
 L power:+5V #PWR0157
 U 1 1 5CB79737
@@ -979,48 +977,36 @@ Connection ~ 2950 4625
 Connection ~ 2950 5900
 Connection ~ 2950 7175
 Connection ~ 2950 3525
-Wire Wire Line
-	3475 3300 2950 3300
-Wire Wire Line
-	2950 2350 2950 3300
-Connection ~ 2950 3300
-Wire Wire Line
-	2950 3300 2950 3525
 Connection ~ 2950 2350
 Wire Wire Line
-	6150 2500 6150 2050
-Wire Wire Line
-	5325 2700 6325 2700
-Connection ~ 5325 2700
-Wire Wire Line
-	5325 2700 5325 3400
+	5425 1050 5425 600 
 $Comp
 L Device:R R67
 U 1 1 5CB9F9E2
-P 7400 2600
-F 0 "R67" V 7193 2600 50  0000 C CNN
-F 1 "1k" V 7284 2600 50  0000 C CNN
-F 2 "" V 7330 2600 50  0001 C CNN
-F 3 "~" H 7400 2600 50  0001 C CNN
-	1    7400 2600
+P 6675 1150
+F 0 "R67" V 6468 1150 50  0000 C CNN
+F 1 "1k" V 6559 1150 50  0000 C CNN
+F 2 "" V 6605 1150 50  0001 C CNN
+F 3 "~" H 6675 1150 50  0001 C CNN
+	1    6675 1150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7250 2600 7025 2600
-Connection ~ 7025 2600
+	6525 1150 6300 1150
+Connection ~ 6300 1150
 $Comp
 L Connector:Conn_01x01_Male J9
 U 1 1 5CBA38EB
-P 7850 2600
-F 0 "J9" H 7822 2530 50  0000 R CNN
-F 1 "noiseout" H 7822 2621 50  0000 R CNN
-F 2 "" H 7850 2600 50  0001 C CNN
-F 3 "~" H 7850 2600 50  0001 C CNN
-	1    7850 2600
+P 7125 1150
+F 0 "J9" H 7097 1080 50  0000 R CNN
+F 1 "noiseout" H 7097 1171 50  0000 R CNN
+F 2 "" H 7125 1150 50  0001 C CNN
+F 3 "~" H 7125 1150 50  0001 C CNN
+	1    7125 1150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7550 2600 7650 2600
+	6825 1150 6925 1150
 $Comp
 L Connector:Conn_01x03_Male J7
 U 1 1 5CBAF9DC
@@ -1054,6 +1040,82 @@ F 3 "~" H 5775 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5775 3200 5775 3600
-Text Notes 6375 3025 0    50   ~ 0
-ext noise mod, bridge 1 and 2 of j7 to disable
+Wire Wire Line
+	5325 2250 5325 3400
+$Comp
+L Connector:Conn_01x03_Male J12
+U 1 1 5CBC56BD
+P 4475 775
+F 0 "J12" V 4535 587 50  0000 R CNN
+F 1 "noiseoutsrc" V 4626 587 50  0000 R CNN
+F 2 "" H 4475 775 50  0001 C CNN
+F 3 "~" H 4475 775 50  0001 C CNN
+	1    4475 775 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4475 975  4475 1250
+Wire Wire Line
+	4475 1250 5600 1250
+Wire Wire Line
+	5325 1625 5325 1150
+Wire Wire Line
+	5325 1150 4575 1150
+Wire Wire Line
+	4575 1150 4575 975 
+Connection ~ 5325 1625
+Wire Wire Line
+	4375 975  4375 1425
+Wire Wire Line
+	4375 1425 2950 1425
+Connection ~ 2950 1425
+Wire Wire Line
+	2950 1425 2950 2350
+Wire Wire Line
+	2950 2350 2950 3300
+$Comp
+L Connector:Conn_01x03_Male J10
+U 1 1 5CBD301E
+P 3425 3800
+F 0 "J10" V 3578 3613 50  0000 R CNN
+F 1 "noisepresel" V 3487 3613 50  0000 R CNN
+F 2 "" H 3425 3800 50  0001 C CNN
+F 3 "~" H 3425 3800 50  0001 C CNN
+	1    3425 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3475 3300 3425 3300
+Wire Wire Line
+	3425 3300 3425 3600
+Wire Wire Line
+	2950 3300 3325 3300
+Wire Wire Line
+	3325 3300 3325 3600
+Connection ~ 2950 3300
+Wire Wire Line
+	2950 3300 2950 3525
+$Comp
+L Connector:Conn_01x01_Male J11
+U 1 1 5CBE0A5A
+P 3650 4200
+F 0 "J11" V 3803 4113 50  0000 R CNN
+F 1 "noisein-pre" V 3712 4113 50  0000 R CNN
+F 2 "" H 3650 4200 50  0001 C CNN
+F 3 "~" H 3650 4200 50  0001 C CNN
+	1    3650 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3525 3600 3525 3525
+Wire Wire Line
+	3525 3525 3650 3525
+Wire Wire Line
+	3650 3525 3650 4000
+Text Notes 3325 4625 0    50   ~ 0
+unsure if ext noise is better before or after U2A, so providing both\nvia J10 and J7
+Text Notes 5675 1625 0    50   ~ 0
+usure if we'd like output before or after U2A, providing both via J12
+Text Notes 5675 2700 0    50   ~ 0
+to disable noise mod, bridge 1/2 of j10 and 1/2 of j7
 $EndSCHEMATC
