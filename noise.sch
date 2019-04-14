@@ -768,8 +768,6 @@ $EndComp
 Wire Wire Line
 	4600 4500 4425 4500
 Wire Wire Line
-	4425 4500 4425 4050
-Wire Wire Line
 	4425 4050 5300 4050
 Wire Wire Line
 	5300 4050 5300 4600
@@ -790,8 +788,6 @@ Wire Wire Line
 	4600 4700 4525 4700
 Wire Wire Line
 	4525 4700 4525 4950
-Text Notes 4350 4150 3    50   ~ 0
-use for input noise conditioning?
 $Comp
 L Amplifier_Operational:TL072 U2
 U 3 1 5CC8B124
@@ -1009,4 +1005,8 @@ Connection ~ 2950 3300
 Wire Wire Line
 	2950 3300 2950 3525
 Connection ~ 2950 2350
+Wire Wire Line
+	4425 4500 4425 4050
+Text Notes 4350 4150 3    50   ~ 0
+use for input noise conditioning?
 $EndSCHEMATC
