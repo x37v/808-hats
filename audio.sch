@@ -1,7 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:808-hats-cache
-LIBS:shift-triggers-cache
-LIBS:mod-dac-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1127,4 +1125,36 @@ Wire Wire Line
 	9500 1100 9500 1150
 Text Notes 9025 1000 0    50   ~ 0
 decouple
+$Comp
+L power:+15V #PWR?
+U 1 1 5CB7A0F9
+P 8850 950
+AR Path="/5CB7A0F9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CB7A0F9" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 8850 800 50  0001 C CNN
+F 1 "+15V" H 8865 1123 50  0000 C CNN
+F 2 "" H 8850 950 50  0001 C CNN
+F 3 "" H 8850 950 50  0001 C CNN
+	1    8850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-15V #PWR?
+U 1 1 5CB7A166
+P 8850 1925
+AR Path="/5CB7A166" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0DBBF/5CB7A166" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 8850 2025 50  0001 C CNN
+F 1 "-15V" H 8865 2098 50  0000 C CNN
+F 2 "" H 8850 1925 50  0001 C CNN
+F 3 "" H 8850 1925 50  0001 C CNN
+	1    8850 1925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 1800 8850 1925
+Connection ~ 8850 1800
+Wire Wire Line
+	8850 1100 8850 950 
+Connection ~ 8850 1100
 $EndSCHEMATC

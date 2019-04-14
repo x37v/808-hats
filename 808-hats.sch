@@ -1,7 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:808-hats-cache
-LIBS:shift-triggers-cache
-LIBS:mod-dac-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1261,4 +1259,23 @@ Wire Wire Line
 	4500 6775 5075 6775
 Wire Wire Line
 	3300 6425 3725 6425
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5CB6481D
+P 1050 6825
+F 0 "J6" H 1156 7003 50  0000 C CNN
+F 1 "output" H 1156 6912 50  0000 C CNN
+F 2 "" H 1050 6825 50  0001 C CNN
+F 3 "~" H 1050 6825 50  0001 C CNN
+	1    1050 6825
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 6925 2    50   Input ~ 0
+chout
+Text GLabel 1350 6825 2    50   Input ~ 0
+ohout
+Wire Wire Line
+	1350 6825 1250 6825
+Wire Wire Line
+	1250 6925 1350 6925
 $EndSCHEMATC
