@@ -8,6 +8,7 @@ Drawn in [KiCad 5](http://kicad-pcb.org/).
 
 ## Mods
 
+* MOTM Power connector
 * Trigger conditioning
 * Ext audio in
 * Noise out
