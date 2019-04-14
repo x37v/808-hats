@@ -809,10 +809,6 @@ $EndComp
 Wire Wire Line
 	8225 3800 8225 3925
 Connection ~ 8225 3925
-Text Label 7900 3925 0    50   ~ 0
-Vdd
-Text Label 7700 4625 0    50   ~ 0
-Vss
 $Comp
 L power:+5V #PWR0150
 U 1 1 5CB84198
