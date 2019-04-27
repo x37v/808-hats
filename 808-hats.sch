@@ -170,7 +170,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6100 2775 50  0001 L CNN
 $EndComp
 Text GLabel 1200 2250 0    50   Input ~ 0
 chtrig
-Text GLabel 2800 1675 0    50   Input ~ 0
+Text GLabel 1225 1675 0    50   Input ~ 0
 accent
 Wire Wire Line
 	4400 2425 4400 2350
@@ -216,8 +216,6 @@ Wire Wire Line
 Connection ~ 4825 2150
 Wire Wire Line
 	4825 2150 4825 2200
-Wire Wire Line
-	2800 1675 3950 1675
 Wire Wire Line
 	4825 1675 4825 1775
 Wire Wire Line
@@ -934,31 +932,28 @@ Wire Wire Line
 $Comp
 L Device:R R64
 U 1 1 5CB59E4A
-P 4175 1450
-F 0 "R64" H 4245 1496 50  0000 L CNN
-F 1 "100k" H 4245 1405 50  0000 L CNN
-F 2 "" V 4105 1450 50  0001 C CNN
-F 3 "~" H 4175 1450 50  0001 C CNN
-	1    4175 1450
-	0    1    1    0   
+P 1275 1475
+F 0 "R64" H 1345 1521 50  0000 L CNN
+F 1 "100k" H 1345 1430 50  0000 L CNN
+F 2 "" V 1205 1475 50  0001 C CNN
+F 3 "~" H 1275 1475 50  0001 C CNN
+	1    1275 1475
+	1    0    0    -1  
 $EndComp
-Connection ~ 3950 1675
-Wire Wire Line
-	3950 1675 4825 1675
 $Comp
 L power:+5V #PWR03
 U 1 1 5CB5DC8A
-P 4425 1450
-F 0 "#PWR03" H 4425 1300 50  0001 C CNN
-F 1 "+5V" H 4440 1623 50  0000 C CNN
-F 2 "" H 4425 1450 50  0001 C CNN
-F 3 "" H 4425 1450 50  0001 C CNN
-	1    4425 1450
-	0    1    1    0   
+P 1275 1225
+F 0 "#PWR03" H 1275 1075 50  0001 C CNN
+F 1 "+5V" H 1290 1398 50  0000 C CNN
+F 2 "" H 1275 1225 50  0001 C CNN
+F 3 "" H 1275 1225 50  0001 C CNN
+	1    1275 1225
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4425 1450 4325 1450
-Text Notes 4050 1350 0    50   ~ 0
+	1275 1225 1275 1325
+Text Notes 1175 1600 1    50   ~ 0
 accent pullup
 $Comp
 L Connector:Conn_01x03_Male J5
@@ -1521,9 +1516,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 875  5750 875 
 Wire Wire Line
-	4025 1450 3950 1450
-Wire Wire Line
-	3950 1450 3950 1675
-Wire Wire Line
 	3800 775  2950 775 
+Wire Wire Line
+	1225 1675 1275 1675
+Wire Wire Line
+	1275 1625 1275 1675
+Connection ~ 1275 1675
+Wire Wire Line
+	1275 1675 4825 1675
 $EndSCHEMATC
