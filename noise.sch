@@ -529,17 +529,6 @@ F 3 "~" H 4250 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Amplifier_Operational:TL072 U2
-U 1 1 5CC50371
-P 4850 3400
-F 0 "U2" H 4850 3033 50  0000 C CNN
-F 1 "TL072" H 4850 3124 50  0000 C CNN
-F 2 "" H 4850 3400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4850 3400 50  0001 C CNN
-	1    4850 3400
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0141
 U 1 1 5CC517F1
 P 4475 3650
@@ -749,17 +738,6 @@ F 3 "" H 6725 5150 50  0001 C CNN
 	1    6725 5150
 	-1   0    0    1   
 $EndComp
-$Comp
-L Amplifier_Operational:TL072 U2
-U 2 1 5CC85CA2
-P 5900 1150
-F 0 "U2" H 5900 783 50  0000 C CNN
-F 1 "TL072" H 5900 874 50  0000 C CNN
-F 2 "" H 5900 1150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5900 1150 50  0001 C CNN
-	2    5900 1150
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	5600 1050 5425 1050
 Wire Wire Line
@@ -768,17 +746,6 @@ Wire Wire Line
 	6300 600  6300 1150
 Wire Wire Line
 	6300 1150 6200 1150
-$Comp
-L Amplifier_Operational:TL072 U2
-U 3 1 5CC8B124
-P 6200 4600
-F 0 "U2" H 6012 4646 50  0000 R CNN
-F 1 "TL072" H 6012 4555 50  0000 R CNN
-F 2 "" H 6200 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6200 4600 50  0001 C CNN
-	3    6200 4600
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6725 4200 6300 4200
 Wire Wire Line
@@ -1114,4 +1081,37 @@ Text Notes 5675 1625 0    50   ~ 0
 usure if we'd like output before or after U2A, providing both via J12
 Text Notes 5675 2700 0    50   ~ 0
 to disable noise mod, bridge 1/2 of j10 and 1/2 of j7
+$Comp
+L Amplifier_Operational:TL074 U2
+U 1 1 5CE32403
+P 4850 3400
+F 0 "U2" H 4850 3033 50  0000 C CNN
+F 1 "TL074" H 4850 3124 50  0000 C CNN
+F 2 "" H 4800 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4900 3600 50  0001 C CNN
+	1    4850 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U2
+U 2 1 5CE325FE
+P 5900 1150
+F 0 "U2" H 5900 783 50  0000 C CNN
+F 1 "TL074" H 5900 874 50  0000 C CNN
+F 2 "" H 5850 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5950 1350 50  0001 C CNN
+	2    5900 1150
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U2
+U 5 1 5CE3374E
+P 6400 4600
+F 0 "U2" H 6358 4646 50  0000 L CNN
+F 1 "TL074" H 6358 4555 50  0000 L CNN
+F 2 "" H 6350 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6450 4800 50  0001 C CNN
+	5    6400 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
