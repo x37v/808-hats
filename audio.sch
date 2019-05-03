@@ -35,7 +35,7 @@ AR Path="/5CC1779C" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC1779C" Ref="R42"  Part="1" 
 F 0 "R42" H 2445 1746 50  0000 L CNN
 F 1 "1M" H 2445 1655 50  0000 L CNN
-F 2 "" V 2305 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2305 1700 50  0001 C CNN
 F 3 "~" H 2375 1700 50  0001 C CNN
 	1    2375 1700
 	1    0    0    -1  
@@ -48,7 +48,7 @@ AR Path="/5CC177A3" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC177A3" Ref="R46"  Part="1" 
 F 0 "R46" H 2445 1321 50  0000 L CNN
 F 1 "1M" H 2445 1230 50  0000 L CNN
-F 2 "" V 2305 1275 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2305 1275 50  0001 C CNN
 F 3 "~" H 2375 1275 50  0001 C CNN
 	1    2375 1275
 	1    0    0    -1  
@@ -82,7 +82,7 @@ AR Path="/5CC177B4" Ref="Q?"  Part="1"
 AR Path="/5CC0DBBF/5CC177B4" Ref="Q11"  Part="1" 
 F 0 "Q11" H 2816 2071 50  0000 L CNN
 F 1 "BC546" H 2816 1980 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2825 1950 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 2825 1950 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2625 2025 50  0001 L CNN
 	1    2625 2025
 	1    0    0    -1  
@@ -98,7 +98,7 @@ AR Path="/5CC177BD" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC177BD" Ref="R52"  Part="1" 
 F 0 "R52" H 2795 2571 50  0000 L CNN
 F 1 "100R" H 2795 2480 50  0000 L CNN
-F 2 "" V 2655 2525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2655 2525 50  0001 C CNN
 F 3 "~" H 2725 2525 50  0001 C CNN
 	1    2725 2525
 	1    0    0    -1  
@@ -227,7 +227,7 @@ AR Path="/5CC177FF" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC177FF" Ref="R53"  Part="1" 
 F 0 "R53" H 4395 2046 50  0000 L CNN
 F 1 "2k7" H 4395 1955 50  0000 L CNN
-F 2 "" V 4255 2000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4255 2000 50  0001 C CNN
 F 3 "~" H 4325 2000 50  0001 C CNN
 	1    4325 2000
 	1    0    0    -1  
@@ -241,7 +241,7 @@ AR Path="/5CC1780B" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC1780B" Ref="R50"  Part="1" 
 F 0 "R50" H 4895 2046 50  0000 L CNN
 F 1 "68k" H 4895 1955 50  0000 L CNN
-F 2 "" V 4755 2000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4755 2000 50  0001 C CNN
 F 3 "~" H 4825 2000 50  0001 C CNN
 	1    4825 2000
 	1    0    0    -1  
@@ -258,7 +258,7 @@ AR Path="/5CC17814" Ref="Q?"  Part="1"
 AR Path="/5CC0DBBF/5CC17814" Ref="Q12"  Part="1" 
 F 0 "Q12" H 5341 1721 50  0000 L CNN
 F 1 "BC546" H 5341 1630 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 1600 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 5350 1600 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5150 1675 50  0001 L CNN
 	1    5150 1675
 	1    0    0    -1  
@@ -289,7 +289,7 @@ AR Path="/5CC17824" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC17824" Ref="R43"  Part="1" 
 F 0 "R43" H 5320 2571 50  0000 L CNN
 F 1 "22k" H 5320 2480 50  0000 L CNN
-F 2 "" V 5180 2525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5180 2525 50  0001 C CNN
 F 3 "~" H 5250 2525 50  0001 C CNN
 	1    5250 2525
 	1    0    0    -1  
@@ -360,7 +360,7 @@ AR Path="/5CC2927E" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC2927E" Ref="R54"  Part="1" 
 F 0 "R54" V 5943 2225 50  0000 C CNN
 F 1 "39k" V 6034 2225 50  0000 C CNN
-F 2 "" V 6080 2225 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6080 2225 50  0001 C CNN
 F 3 "~" H 6150 2225 50  0001 C CNN
 	1    6150 2225
 	0    1    1    0   
@@ -373,7 +373,7 @@ U 1 1 5CC29756
 P 6925 2325
 F 0 "U4" H 6925 1958 50  0000 C CNN
 F 1 "TL072" H 6925 2049 50  0000 C CNN
-F 2 "" H 6925 2325 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6925 2325 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6925 2325 50  0001 C CNN
 	1    6925 2325
 	1    0    0    1   
@@ -388,7 +388,7 @@ AR Path="/5CC2A211" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC2A211" Ref="R47"  Part="1" 
 F 0 "R47" H 6330 2554 50  0000 R CNN
 F 1 "47k" H 6330 2645 50  0000 R CNN
-F 2 "" V 6330 2600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6330 2600 50  0001 C CNN
 F 3 "~" H 6400 2600 50  0001 C CNN
 	1    6400 2600
 	-1   0    0    1   
@@ -420,7 +420,7 @@ AR Path="/5CC2AB1E" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC2AB1E" Ref="R55"  Part="1" 
 F 0 "R55" V 6718 1800 50  0000 C CNN
 F 1 "470k" V 6809 1800 50  0000 C CNN
-F 2 "" V 6855 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6855 1800 50  0001 C CNN
 F 3 "~" H 6925 1800 50  0001 C CNN
 	1    6925 1800
 	0    1    1    0   
@@ -483,7 +483,7 @@ U 1 1 5CC2D718
 P 7100 775
 F 0 "Johlev1" V 7160 587 50  0000 R CNN
 F 1 "100kA" V 7251 587 50  0000 R CNN
-F 2 "" H 7100 775 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7100 775 50  0001 C CNN
 F 3 "~" H 7100 775 50  0001 C CNN
 	1    7100 775 
 	0    -1   1    0   
@@ -503,7 +503,7 @@ AR Path="/5CC30647" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC30647" Ref="R60"  Part="1" 
 F 0 "R60" V 7393 2325 50  0000 C CNN
 F 1 "1k" V 7484 2325 50  0000 C CNN
-F 2 "" V 7530 2325 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7530 2325 50  0001 C CNN
 F 3 "~" H 7600 2325 50  0001 C CNN
 	1    7600 2325
 	0    1    1    0   
@@ -551,7 +551,7 @@ AR Path="/5CC3936E" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC3936E" Ref="R45"  Part="1" 
 F 0 "R45" H 2445 4746 50  0000 L CNN
 F 1 "1M" H 2445 4655 50  0000 L CNN
-F 2 "" V 2305 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2305 4700 50  0001 C CNN
 F 3 "~" H 2375 4700 50  0001 C CNN
 	1    2375 4700
 	1    0    0    -1  
@@ -564,7 +564,7 @@ AR Path="/5CC39374" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC39374" Ref="R49"  Part="1" 
 F 0 "R49" H 2445 4321 50  0000 L CNN
 F 1 "1M" H 2445 4230 50  0000 L CNN
-F 2 "" V 2305 4275 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2305 4275 50  0001 C CNN
 F 3 "~" H 2375 4275 50  0001 C CNN
 	1    2375 4275
 	1    0    0    -1  
@@ -598,7 +598,7 @@ AR Path="/5CC39384" Ref="Q?"  Part="1"
 AR Path="/5CC0DBBF/5CC39384" Ref="Q14"  Part="1" 
 F 0 "Q14" H 2816 5071 50  0000 L CNN
 F 1 "BC546" H 2816 4980 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2825 4950 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 2825 4950 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2625 5025 50  0001 L CNN
 	1    2625 5025
 	1    0    0    -1  
@@ -614,7 +614,7 @@ AR Path="/5CC3938C" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC3938C" Ref="R59"  Part="1" 
 F 0 "R59" H 2795 5571 50  0000 L CNN
 F 1 "100R" H 2795 5480 50  0000 L CNN
-F 2 "" V 2655 5525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2655 5525 50  0001 C CNN
 F 3 "~" H 2725 5525 50  0001 C CNN
 	1    2725 5525
 	1    0    0    -1  
@@ -743,7 +743,7 @@ AR Path="/5CC393C9" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC393C9" Ref="R58"  Part="1" 
 F 0 "R58" H 4395 5046 50  0000 L CNN
 F 1 "2k7" H 4395 4955 50  0000 L CNN
-F 2 "" V 4255 5000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4255 5000 50  0001 C CNN
 F 3 "~" H 4325 5000 50  0001 C CNN
 	1    4325 5000
 	1    0    0    -1  
@@ -757,7 +757,7 @@ AR Path="/5CC393D2" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC393D2" Ref="R51"  Part="1" 
 F 0 "R51" H 4895 5046 50  0000 L CNN
 F 1 "68k" H 4895 4955 50  0000 L CNN
-F 2 "" V 4755 5000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4755 5000 50  0001 C CNN
 F 3 "~" H 4825 5000 50  0001 C CNN
 	1    4825 5000
 	1    0    0    -1  
@@ -774,7 +774,7 @@ AR Path="/5CC393DA" Ref="Q?"  Part="1"
 AR Path="/5CC0DBBF/5CC393DA" Ref="Q13"  Part="1" 
 F 0 "Q13" H 5341 4721 50  0000 L CNN
 F 1 "BC546" H 5341 4630 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 4600 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 5350 4600 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5150 4675 50  0001 L CNN
 	1    5150 4675
 	1    0    0    -1  
@@ -805,7 +805,7 @@ AR Path="/5CC393E9" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC393E9" Ref="R44"  Part="1" 
 F 0 "R44" H 5320 5571 50  0000 L CNN
 F 1 "22k" H 5320 5480 50  0000 L CNN
-F 2 "" V 5180 5525 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5180 5525 50  0001 C CNN
 F 3 "~" H 5250 5525 50  0001 C CNN
 	1    5250 5525
 	1    0    0    -1  
@@ -876,7 +876,7 @@ AR Path="/5CC3940B" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC3940B" Ref="R57"  Part="1" 
 F 0 "R57" V 5943 5225 50  0000 C CNN
 F 1 "33k" V 6034 5225 50  0000 C CNN
-F 2 "" V 6080 5225 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6080 5225 50  0001 C CNN
 F 3 "~" H 6150 5225 50  0001 C CNN
 	1    6150 5225
 	0    1    1    0   
@@ -889,7 +889,7 @@ U 2 1 5CC39412
 P 6925 5325
 F 0 "U4" H 6925 4958 50  0000 C CNN
 F 1 "TL072" H 6925 5049 50  0000 C CNN
-F 2 "" H 6925 5325 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6925 5325 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6925 5325 50  0001 C CNN
 	2    6925 5325
 	1    0    0    1   
@@ -904,7 +904,7 @@ AR Path="/5CC39419" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC39419" Ref="R48"  Part="1" 
 F 0 "R48" H 6330 5554 50  0000 R CNN
 F 1 "47k" H 6330 5645 50  0000 R CNN
-F 2 "" V 6330 5600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6330 5600 50  0001 C CNN
 F 3 "~" H 6400 5600 50  0001 C CNN
 	1    6400 5600
 	-1   0    0    1   
@@ -936,7 +936,7 @@ AR Path="/5CC39428" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC39428" Ref="R56"  Part="1" 
 F 0 "R56" V 6718 4800 50  0000 C CNN
 F 1 "470k" V 6809 4800 50  0000 C CNN
-F 2 "" V 6855 4800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6855 4800 50  0001 C CNN
 F 3 "~" H 6925 4800 50  0001 C CNN
 	1    6925 4800
 	0    1    1    0   
@@ -983,7 +983,7 @@ U 1 1 5CC39441
 P 6775 3975
 F 0 "C17" V 6520 3975 50  0000 C CNN
 F 1 "33u/6.3v" V 6611 3975 50  0000 C CNN
-F 2 "" H 6813 3825 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 6813 3825 50  0001 C CNN
 F 3 "~" H 6775 3975 50  0001 C CNN
 	1    6775 3975
 	0    1    1    0   
@@ -999,7 +999,7 @@ U 1 1 5CC3944A
 P 7100 3775
 F 0 "Jchlev1" V 7160 3587 50  0000 R CNN
 F 1 "100kA" V 7251 3587 50  0000 R CNN
-F 2 "" H 7100 3775 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7100 3775 50  0001 C CNN
 F 3 "~" H 7100 3775 50  0001 C CNN
 	1    7100 3775
 	0    -1   1    0   
@@ -1019,7 +1019,7 @@ AR Path="/5CC39454" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CC39454" Ref="R61"  Part="1" 
 F 0 "R61" V 7393 5325 50  0000 C CNN
 F 1 "1k" V 7484 5325 50  0000 C CNN
-F 2 "" V 7530 5325 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7530 5325 50  0001 C CNN
 F 3 "~" H 7600 5325 50  0001 C CNN
 	1    7600 5325
 	0    1    1    0   
@@ -1054,7 +1054,7 @@ U 3 1 5CCBF985
 P 8750 1450
 F 0 "U4" H 8562 1496 50  0000 R CNN
 F 1 "TL072" H 8562 1405 50  0000 R CNN
-F 2 "" H 8750 1450 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 1450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8750 1450 50  0001 C CNN
 	3    8750 1450
 	-1   0    0    -1  
@@ -1151,7 +1151,7 @@ U 1 1 5CB50073
 P 4225 1050
 F 0 "J3" V 4285 1190 50  0000 L CNN
 F 1 "ohfilten" V 4376 1190 50  0000 L CNN
-F 2 "" H 4225 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4225 1050 50  0001 C CNN
 F 3 "~" H 4225 1050 50  0001 C CNN
 	1    4225 1050
 	0    1    1    0   
@@ -1171,7 +1171,7 @@ AR Path="/5CB59FFC" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CB59FFC" Ref="R65"  Part="1" 
 F 0 "R65" H 4145 2046 50  0000 L CNN
 F 1 "1k" H 4145 1955 50  0000 L CNN
-F 2 "" V 4005 2000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4005 2000 50  0001 C CNN
 F 3 "~" H 4075 2000 50  0001 C CNN
 	1    4075 2000
 	1    0    0    -1  
@@ -1182,7 +1182,7 @@ U 1 1 5CB5D9D3
 P 4075 2650
 F 0 "J1" V 4228 2462 50  0000 R CNN
 F 1 "ohfilt-10k" V 4137 2462 50  0000 R CNN
-F 2 "" H 4075 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4075 2650 50  0001 C CNN
 F 3 "~" H 4075 2650 50  0001 C CNN
 	1    4075 2650
 	0    -1   -1   0   
@@ -1206,7 +1206,7 @@ U 1 1 5CB6E91C
 P 4225 4025
 F 0 "J4" V 4285 4166 50  0000 L CNN
 F 1 "chfilten" V 4376 4166 50  0000 L CNN
-F 2 "" H 4225 4025 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4225 4025 50  0001 C CNN
 F 3 "~" H 4225 4025 50  0001 C CNN
 	1    4225 4025
 	0    1    1    0   
@@ -1219,7 +1219,7 @@ AR Path="/5CB6EA9E" Ref="R?"  Part="1"
 AR Path="/5CC0DBBF/5CB6EA9E" Ref="R66"  Part="1" 
 F 0 "R66" H 4170 5046 50  0000 L CNN
 F 1 "1k" H 4170 4955 50  0000 L CNN
-F 2 "" V 4030 5000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4030 5000 50  0001 C CNN
 F 3 "~" H 4100 5000 50  0001 C CNN
 	1    4100 5000
 	1    0    0    -1  
@@ -1230,7 +1230,7 @@ U 1 1 5CB6EB8A
 P 4100 5725
 F 0 "J2" V 4253 5537 50  0000 R CNN
 F 1 "chfilt-10k" V 4162 5537 50  0000 R CNN
-F 2 "" H 4100 5725 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 5725 50  0001 C CNN
 F 3 "~" H 4100 5725 50  0001 C CNN
 	1    4100 5725
 	0    -1   -1   0   
